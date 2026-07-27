@@ -27,14 +27,14 @@
 
 ```bash
 # 下载并运行（需要 root）
-wget -O acme-onekey.sh https://raw.githubusercontent.com/gosoki/acme_onekey/main/acme-onekey.sh
+wget -O acme-onekey.sh https://raw.githubusercontent.com/gosoki/acme_onekey/master/acme-onekey.sh
 bash acme-onekey.sh
 ```
 
 或者：
 
 ```bash
-bash <(curl -Ls https://raw.githubusercontent.com/gosoki/acme_onekey/main/acme-onekey.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/gosoki/acme_onekey/master/acme-onekey.sh)
 ```
 
 首次运行会把脚本装到 `/usr/local/bin/acme-onekey`，**之后直接敲这个命令就能进管理菜单**：
